@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+@media (max-width: 600px){
+    ul{
+        display: block;
+    }
+}
